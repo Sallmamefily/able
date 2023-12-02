@@ -1,0 +1,117 @@
+*{
+    font-family: 'Acme' sans-serif;
+}
+body{
+    background-color: #dbdbd9;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header{
+    background: url(../mamely/moi.jpg) no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+    color:white ;
+}
+h1.titre{
+    font-size: 95px;
+    text-transform: uppercase;
+}
+h3.slogan{
+    font-size: 35px;
+    font-style: italic;
+}
+.op{
+    text-align: center;
+    font-weight: lighter;
+    font-size:65px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.8em;
+
+}
+h2{
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Destination*/
+
+div.reservation-item
+{
+
+    color: #373737;
+    width: 100ch;
+    height: 100vh;
+    margin: 10px;
+    position: relative;
+    flex: 1 0 33%;
+    background-size: 100%;
+}
+div.reservation-item:hover{
+    flex: 1 0 44%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4) ,0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.5s all;
+}
+div.reservation-group{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    margin:20px;               
+}
+.salon{background: url("../mamely/slon.jpg") no-repeat;
+    
+    }
+.pascine{background: url("../mamely/laf.jpg")no-repeat; }
+.chambre{background: url("../mamely/simple.jpg") no-repeat;}
+.mariage{background: url("../mamely/wy.jpg") no-repeat;}
+.cmbre{ background: url("../mamely/chambre1.jpg") no-repeat;}
+.lune{background: url("../mamely/saz.jpg") no-repeat;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+span.nom{
+    position: relative;
+    color: #373737;
+    background-color: beige;
+    top: 20px;
+    float:right;
+    padding: 15px; 
+    font-size: 35px;
+}
+
+span.price{
+    position: relative;
+    color: #dbdbd9;
+    background-color: orange;
+    padding: 12px;
+    font-size: 30px;
+    top: 612px;
+}
+footer{
+    height: 45px;
+    background-color:rosybrown;
+    text-align: center;
+    font-size: 35px;
+    padding: 65px;
+
+}
